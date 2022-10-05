@@ -6,7 +6,7 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom';
 // import PeopleIcon from '@mui/icons-material/People';
 // import AccessibilityNewIcon from '@mui/icons-material/AccessibilityNew';
 // import CoPresentIcon from '@mui/icons-material/CoPresent';
-import Login from './Login';
+
 
 
 function App() {
@@ -14,13 +14,11 @@ function App() {
     <>
     
     <BrowserRouter>
-    
-     <Routes>
-      <Route path='/' element={<Search />}></Route>
-     <Route path='/login' element={<Login />}></Route>
-     </Routes>
-    
-    </BrowserRouter>
+      <Search />
+    <Routes>
+           
+    </Routes>
+  </BrowserRouter>
 
       </>
   );
